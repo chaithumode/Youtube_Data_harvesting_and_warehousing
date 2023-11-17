@@ -6,18 +6,18 @@ This project extracts the particular youtube channel data by using the youtube c
 
 
 # Developer Guide
-# 1. Tools Install
+## 1. Tools Install
 Virtual code.
 Jupyter notebook.
 Python 3.11.0 or higher.
 MySQL.
 MongoDB.
 Youtube API key.
-# 2. Requirement Libraries to Install
+## 2. Requirement Libraries to Install
 pip install google-api-python-client, pymongo, mysql-connector-python, sqlalchemy, pymysql, pymysql, pandas, numpy, plotly-express, streamlit.
 ( pip install google-api-python-client pymongo mysql-connector-python sqlalchemy pymysql pandas numpy plotly-express streamlit )
 
-# 3. Import Libraries
+## 3. Import Libraries
 Youtube API libraries
 
 import googleapiclient.discovery
@@ -43,7 +43,7 @@ Dashboard libraries
 
 import streamlit as st
 import plotly.express as px
-# 4. E T L Process
+## 4. E T L Process
 a) Extract data
 Extract the particular youtube channel data by using the youtube channel id, with the help of the youtube API developer console.
 b) Process and Transform the data
